@@ -11,11 +11,6 @@ sudo apt install nginx
 nginx -t kiểm tra syntax
 <br>
 nginx -T kiểm tra syntax nhưng in ra thứ tự mà nginx sẽ đọc các file config
-<br>
-user www-data; 
-worker_processes auto; 
-pid /run/nginx.pid; 
-include /etc/nginx/modules-enabled/*.conf;
 #### note
 Cấu hình Vitual hosts trên ubuntu nó sẽ nằm trong /etc/nginx/sites-available/ + /etc/nginx/sites-enabled/ và có cơ chế enable/disable site
 <br>
